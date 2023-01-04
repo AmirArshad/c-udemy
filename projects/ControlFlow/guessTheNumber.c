@@ -25,19 +25,19 @@ int main()
 
         if(guess==randomNumber)
         {
-            printf("\nHe's right. It's %d\n",guess);
+            printf("\nHe's right. It's %d\n\n",guess);
             break;
         }
         else if (guess < 0 || guess > 20)
-            printf("\nGuess a number between 0-20 you donut");
+            printf("\nGuess a number between 0-20 you donut\n");
          else if (guess < randomNumber)
-            printf("\nPick a higher number.");
+            printf("\nPick a higher number.\n");
          else if (guess > randomNumber)
-            printf("\nPick a lower number.");
+            printf("\nPick a lower number.\n");
     }
 
     if(maxGuesses == 0)
-        printf("\nYou ran out of tries. The number was %d idiot\n",randomNumber);
+        printf("\nYou ran out of tries. The number was %d idiot\n\n",randomNumber);
     
     return 0;
 }
