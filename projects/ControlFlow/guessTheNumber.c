@@ -15,7 +15,7 @@ int main()
     //get the random number
     randomNumber = rand() % 21; //makes sure its between 0-20
 
-    printf("\nIt's time to play a game you egg.");
+    printf("\nIt's time to play a game you egg.\n");
     printf("\nGuess a number between 0-20. You have 5 tries.\n");
 
     for(;maxGuesses > 0;--maxGuesses)
