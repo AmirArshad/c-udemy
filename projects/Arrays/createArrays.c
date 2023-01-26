@@ -8,6 +8,8 @@ int main(void)
     long sum = 0; //sum grades
     float average = 0.0f; //store average as float
 
+    //test git
+
     printf("\nEnter the 10 grades:\n");
 
     for(int i = 0 ; i < count ; ++i)
